@@ -23,3 +23,10 @@ URL do curso -> [Typescript - Parte 3 - Mais Técnicas e Boas Práticas](https
 * Ordem de execução dos decorators.
 * Simplicação no design de decorators.
 * Portabilidade de funcionalidade antiga para decorators.
+
+## 03 - Decorator de Propriedade &#x1F516;
+* Como evitar código duplicado.
+* Decorator de propriedade.
+* Criação dinâmica de getters.
+* O uso de `Object.defineProperty`.
+* Cache de decorators.
