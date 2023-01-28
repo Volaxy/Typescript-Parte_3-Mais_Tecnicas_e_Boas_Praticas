@@ -30,3 +30,9 @@ URL do curso -> [Typescript - Parte 3 - Mais Técnicas e Boas Práticas](https
 * Criação dinâmica de getters.
 * O uso de `Object.defineProperty`.
 * Cache de decorators.
+
+## 04 - API Externa e Interface &#x1F516;
+* API externa.
+* Consumindo API externa.
+* Definindo uma interface para a API.
+* Isolando o acesso à API em um serviço.
