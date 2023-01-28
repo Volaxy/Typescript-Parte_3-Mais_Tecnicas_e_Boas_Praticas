@@ -1,3 +1,4 @@
+import { inspect } from "../decorators/inspect.js";
 import { logarTempoExecucao } from "../decorators/logar-tempo-execucao.js";
 
 export abstract class View<T> {
@@ -17,7 +18,11 @@ export abstract class View<T> {
         }
     }
 
-    @logarTempoExecucao()
+    // @inspect() // This will be executed first, but the second decorator is called inside the first decorator
+    // @logarTempoExecucao(true)
+    
+    @logarTempoExecucao(true) // "()" is used after the name when a parameter is passed to the decorator that is returned
+    @inspect
     public update(model: T): void {
         let template = this.template(model);
         if (this.escapar) {

@@ -20,7 +20,6 @@ export class NegociacaoController {
         this.negociacoesView.update(this.negociacoes);
     }
 
-    // To invoque a decorator, put the "@" follow by the function name declared in a TS file
     @logarTempoExecucao()
     public adiciona(): void {
         const negociacao = Negociacao.criaDe(
